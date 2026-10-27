@@ -1,11 +1,26 @@
-img {
+img.dance{
     width: 200px;
 }
 
-body {
-    text-align: center;
-    font-family: 'Arial';
-    background-color:gold;
-    color:black;
+img.star{
+    width: 100px;
+}
 
+.image-manager{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.row-caption{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(239, 243, 241);
+    color:rgb(12, 2, 59);
+
+
+}
+
+h1 {
+    color:rgb(12, 2, 59)
 }
